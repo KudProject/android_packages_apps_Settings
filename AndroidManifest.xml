@@ -2655,7 +2655,7 @@
                 android:value="true" />
         </activity>
 
-        <!-- Show regulatory info (from settings item or dialing "*#07#") -->
+        <!-- Show regulatory info (from settings item or dialing "*#07#")
         <activity
             android:name="RegulatoryInfoDisplayActivity"
             android:label="@string/regulatory_labels"
@@ -2666,7 +2666,7 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
-        </activity>
+        </activity> -->
 
         <!-- Confirmation dialog for enabling notification access from CompanionDeviceManager -->
         <activity android:name=".notification.NotificationAccessConfirmationActivity"
